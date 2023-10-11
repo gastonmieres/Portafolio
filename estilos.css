@@ -102,6 +102,9 @@ img.Proyecto_2 {
     justify-content: center;
     margin-left: 10rem;
 }
+projects ul {
+    color: red;
+}
 
 /* Estilos para la sección "Contacto" */
 #contact {
@@ -109,6 +112,7 @@ img.Proyecto_2 {
     padding: 2rem;
     margin: 3rem auto;
     border: 1px solid #353941;
+    border-radius: 10px;
     color: #353941;
 }
 
