@@ -55,7 +55,7 @@ header a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
 }
 
@@ -86,12 +86,22 @@ p {
     border: 1px solid #353941;
 }
 
+img.Proyecto_1 {
+    justify-content: center;
+    margin-left: 10rem;
+}
+
 .Proyecto_2 {
     width: 800px;
     height: 400px;
     border: 1px solid #353941;
     max-width: 100%;
 }   
+
+img.Proyecto_2 {
+    justify-content: center;
+    margin-left: 10rem;
+}
 
 /* Estilos para la sección "Contacto" */
 #contact {
@@ -113,6 +123,13 @@ p {
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
+
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
 
 #contact button {
     background-color: #333;
