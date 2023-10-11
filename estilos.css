@@ -1,13 +1,12 @@
 body {
-    background-color: #AEBDCA;
+    background: linear-gradient(rgb(32, 31, 31), rgb(41, 64, 73));
 }
 
 h1 {
-    color: #353941;
+    color: #000;
     text-align: center;
     text-decoration: underline 2px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #7895B2;
     padding: 0.5rem ;
     
 }
@@ -15,20 +14,18 @@ h1 {
 /* Estilos para el encabezado */
 header {
     color: #7C9D96;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
-    background-color: #7895B2;
+    background-color: #D9DFDB;
     border: 1px solid #353941 ;
+    border-radius: 10px;
+    margin: 3rem auto;
+    font-size: 100%;
+    max-width: 500px;
 }
 
 header h1 {
     margin: 0;
-}
-
-header ul {
-    list-style: none;
-    margin: 1;
-    padding: 0;
 }
 
 header li {
@@ -41,22 +38,25 @@ header a {
     text-decoration: none;
     padding: 0.5rem 1.9rem;
     border-radius: 5px;
-    border: 1px solid #353941;  
+    border: 1px solid #353941; 
 }
 
 /* Estilos para la sección "Acerca de mí" */
 #about {
-    background-color: #7895B2;
+    background-color: #D9DFDB;
     padding: 1rem;
     border: 1px solid #353941;
     text-align: center;
     margin: 3rem auto;
-    color: #353941;
+    border-radius: 10px;
+    color: black;
+    font-size: 100%;
+    max-width: 500px;
 }
 
 p {
     font-size: 20px;
-    
+    color: #000;
 }
 
 .Foto_de_perfil {
@@ -69,9 +69,10 @@ p {
 
 /* Estilos para la sección "Proyectos" */
 #projects {
-    background-color: #7895B2;
+    background-color: #D9DFDB;
     padding: 1rem;
     border: 1px solid #353941;
+    border-radius: 10px;
     color: #353941;
 }
 
@@ -80,27 +81,25 @@ p {
 }
 
 .Proyecto_1 {
-    width: 100%;
-    height: auto;
+    width: 800px;
+    height: 400px;
     border: 1px solid #353941;
 }
 
 .Proyecto_2 {
-    width:100%;
-    height: auto;
+    width: 800px;
+    height: 400px;
     border: 1px solid #353941;
     max-width: 100%;
 }   
 
 /* Estilos para la sección "Contacto" */
 #contact {
-    background-color: #7895B2;
+    background-color: #D9DFDB;
     padding: 2rem;
     margin: 3rem auto;
-    background-color: #7895B2;
     border: 1px solid #353941;
     color: #353941;
-    
 }
 
 #contact label {
