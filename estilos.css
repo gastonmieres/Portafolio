@@ -74,6 +74,9 @@ p {
     border: 1px solid #353941;
     border-radius: 10px;
     color: #353941;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 3rem auto;
 }
 
 #projects h3 {
@@ -110,10 +113,10 @@ projects ul {
 #contact {
     background-color: #D9DFDB;
     padding: 2rem;
-    margin: 3rem auto;
     border: 1px solid #353941;
     border-radius: 10px;
     color: #353941;
+    margin: 60px;
 }
 
 #contact label {
