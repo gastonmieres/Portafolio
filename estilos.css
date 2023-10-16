@@ -51,20 +51,20 @@ header a {
 /* Estilos específicos para pantallas más pequeñas (como teléfonos) */
 @media only screen and (max-width: 768px) {
     header {
-        padding: 1rem; /* Puedes ajustar según sea necesario */
-        max-width: none; /* Elimina la restricción de ancho máximo */
+        padding: 1rem; /
     }
 
     header h1 {
-       margin-left: 0; /* Ajusta el margen según sea necesario */
+       margin-left: 0; 
     }
 
     header nav ul {
-        text-align: center; /* Centra los elementos en pantallas pequeñas */
+        text-align: center; 
+        margin-top: 50px; 
     }
 
     header li {
-        margin-bottom: 2rem; /* Espaciado entre elementos en pantallas pequeñas */
+        margin-bottom: 2.5rem; 
     }
 
     header a {
