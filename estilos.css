@@ -24,7 +24,7 @@ header {
     border-radius: 10px;
     margin: 2rem auto;
     font-size: 100%;
-    max-width: fit-content;
+    max-width: 570px;
 }
 
 header h1 {
@@ -60,7 +60,7 @@ header a {
     border: 1px solid white;
     color: white;
     font-size: 100%;
-    max-width: 550px;
+    max-width: 570px;
 }
 
 p {
@@ -73,21 +73,26 @@ p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px solid #353941;
+    border: 1px solid white;
     max-width: 100%;
     margin-top: 15px;
 }
 
 /* Estilos para la sección "Proyectos" */
 #projects {
-    background-color: #D9DFDB;
+    background-color: #1E1C27;
+    font-family: Poppins;
+    font-weight: 400;
     padding: 1rem;
-    border: 1px solid #353941;
+    border: 1px solid white;
     border-radius: 10px;
-    color: #353941;
-    max-width: fit-content;
-    max-height: fit-content;
+    color: white;
     margin: 3rem auto;
+    max-width: 591px;
+}
+
+#projects p {
+    text-align: center;
 }
 
 #projects h3 {
@@ -102,7 +107,6 @@ p {
 
 img.Proyecto_1 {
     justify-content: center;
-    margin-left: 10rem;
     max-width: 100%;
     height: auto;
 }
@@ -116,20 +120,19 @@ img.Proyecto_1 {
 
 img.Proyecto_2 {
     justify-content: center;
-    margin-left: 10rem;
-}
-projects ul {
-    color: red;
 }
 
 /* Estilos para la sección "Contacto" */
 #contact {
-    background-color: #D9DFDB;
-    padding: 2rem;
-    border: 1px solid #353941;
+    background-color: #1E1C27;
+    padding: 2rem 2.5rem;
+    font-family: Poppins;
+    font-weight: 400;
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    color: #353941;
-    margin: 60px;
+    color: white;
+    margin: 3rem auto;
+    max-width: 545px;
 }
 
 #contact label {
@@ -152,14 +155,18 @@ textarea {
 
 
 #contact button {
-    background-color: #333;
+    background-color: #1b1a22;
     color: white;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 1px solid white;
     border-radius: 3px;
     cursor: pointer;
 }
 
 #contact button:hover {
-    background-color: #555;
+    background-color: #14121a;
+}
+
+h2 {
+    text-align: center;
 }

@@ -19,6 +19,7 @@
     </nav>
 </header>
 
+<!-- Sección de "Acerca de mi" -->
 <section id="about">
     <h2>Acerca de mí</h2>
     <p>¡Hola! Soy Gastón Mieres, un estudiante de Ingeniería en Computación apasionado por la tecnología y el desarrollo web. Mi enfoque crítico y eficaz en el análisis de problemas, junto con mi actitud de aprendizaje autodidacta, me impulsan a  poder incorporarme al mercado laboral de IT.</p>
@@ -27,37 +28,43 @@
     <img src="IMG_20230316_003152_769.jpg" alt="Foto de perfil" class="Foto_de_perfil">
 </section>
 
+<!-- Sección de proyectos -->
 <section id="projects">
     <h2>Proyectos</h2>
-    <p>Aquí puedes ver algunos de mis proyectos destacados:</p>
-    <ul>
-        <li>
-            <h3>e-commerce JAP</h3>
-            <img src="Screenshot 2023-10-10 at 21-48-45 eMercado - Todo lo que busques está aquí.png" alt="e-commerce JAP" class="Proyecto_1">
-            <p>Participé activamente en el desarrollo y lanzamiento exitoso de e.mercado - JAP, un proyecto grupal en el marco de Jóvenes a Programar.</p>
-        </li>
-        <li>
-            <h3>GeoNation Explorer</h3>
-            <img src="Screenshot 2023-10-10 at 21-50-12 Información del país.png" alt="GeoNation Explorer" class="Proyecto_2">
-            <p>Desarrollé una aplicación web que proporciona información datallada de cualquier país utilizando datos de una API de información geográfica y demográfica.
-    </ul>
+    <p>Aquí puedes ver algunos de mis proyectos destacados</p>
+
+    <div class="project_1">
+        <h3>e-commerce JAP</h3>
+        <img src="Screenshot 2023-10-10 at 21-48-45 eMercado - Todo lo que busques está aquí.png" alt="e-commerce JAP" class="Proyecto_1">
+        <p>Participé activamente en el desarrollo y lanzamiento exitoso de e.mercado - JAP, un proyecto grupal en el marco de Jóvenes a Programar.</p>
+    </div>
+
+    <div class="project_2">
+        <h3>GeoNation Explorer</h3>
+        <img src="Screenshot 2023-10-10 at 21-50-12 Información del país.png" alt="GeoNation Explorer" class="Proyecto_2">
+        <p>Desarrollé una aplicación web que proporciona información detallada de cualquier país utilizando datos de una API de información geográfica y demográfica.</p>
+    </div>
 </section>
 
+<!-- Sección de contacto -->
 <section id="contact">
     <h2>Contacto</h2>
-    <form action="" method="get">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message"  required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-</section>
     
+    <div class="contact-form">
+        <form action="" method="GET">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+  
 </body>
 </html>
