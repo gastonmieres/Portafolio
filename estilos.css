@@ -187,7 +187,6 @@ img.Proyecto_2 {
     transform: scaleX(1);
 }
 
-
 /* Estilos para la sección "Contacto" */
 #contact {
     background-color: #1E1C27;
@@ -270,4 +269,12 @@ h2, h3 {
 
 .social-networks img:hover {
     transform: scale(1.03); /* Añade un efecto de zoom a las imágenes */
+}
+
+@media only screen and (max-width: 768px) {
+    .social-networks img {
+        max-height: 80px;
+        max-width: 80px; 
+        margin: 0 -8px;
+    }
 }
