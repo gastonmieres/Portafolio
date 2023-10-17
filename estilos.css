@@ -149,6 +149,45 @@ img.Proyecto_2 {
     height: auto;
 }
 
+.project_2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project_2 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project_2 h3 a {
+    color: white; /* Color normal del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    position: relative;
+}
+
+.project_2 h3 a:hover {
+    color: rgba(255, 255, 255, 0.76); /* Color del texto al pasar el mouse */
+}
+
+.project_2 h3 a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.76); /* Color del subrayado */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.project_2 h3 a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
 /* Estilos para la sección "Contacto" */
 #contact {
     background-color: #1E1C27;
@@ -194,6 +233,41 @@ textarea {
     background-color: #14121a;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.social-networks h3 {
+    margin-bottom: 1.5rem; /* Añade un margen inferior al título para separarlo del resto de las imágenes */
+    font-weight: 700;
+}
+
+.social-networks-images {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    width: 100px;
+    height: 100px;
+}
+
+.social-networks a {
+    margin: 0 20px; /* Añade un margen a cada enlace para separar las imágenes */
+}
+
+.social-networks img {
+    border: 2px solid white;
+    border-radius: 50%; /* Hace que el borde sea redondo para imágenes redondas */
+    overflow: hidden; /* Evita que la imagen se salga del contenedor */
+    width: 100px;
+    height: 100px;
+}
+
+.social-networks img:hover {
+    transform: scale(1.03); /* Añade un efecto de zoom a las imágenes */
 }
