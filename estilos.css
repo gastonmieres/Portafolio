@@ -124,6 +124,12 @@ p {
     margin: 0.5rem;
 }
 
+.project_1 h3,
+.project_2 h3 {
+    font-size: 1.5em;
+}
+
+
 .Proyecto_1 {
     width: 800px;
     height: 400px;
@@ -207,7 +213,7 @@ img.Proyecto_2 {
 
 #contact input,
 #contact textarea {
-    width: 100%;
+    width: 96.5%;
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
